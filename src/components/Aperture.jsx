@@ -3,7 +3,8 @@ import Card from "./common/Card";
 import eyeIcon from "../images/aperatuure-eye.png";
 import solanaIcon from "../images/solana-sol-logo.png";
 import ethereumIcon from "../images/ethereum.png";
-import mobileIcon from "../images/Phone.png";
+import mobile1Icon from "../images/Phone1.png";
+import mobile2Icon from "../images/Phone2.png";
 
 const data = [
   {
@@ -56,7 +57,16 @@ export default function Aperture() {
         </motion.div>
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-4 xl:gap-8">
           <div>            
-            <img src={mobileIcon} alt="Ethereum Icon" className="w-full image-round " />
+            <motion.div
+              variants={container}
+              initial={{ opacity: 0, y: -50 }} // Initial state
+              animate={{ opacity: 1, y: 0 }} // Animation state
+              transition={{ duration: 0.5 }} // Animation duration
+              whileHover={{ scale: 1.1 }} // Hover effect
+              className="flex flex-col flex-1 gap-4 xl:gap-8 items-center mark-icon"
+            >
+              <img src={mobile1Icon} alt="Ethereum Icon" className="w-full image-round" />
+            </motion.div>  
             <motion.div
               variants={container}
               initial={{ opacity: 0, y: -50 }} // Initial state
@@ -80,8 +90,18 @@ export default function Aperture() {
               <p className="text-start">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
             </div>
           </div>
-          <div>            
-            <img src={mobileIcon} alt="Solana Icon" className="w-full image-round" />
+          <div>
+            <motion.div
+              variants={container}
+              initial={{ opacity: 0, y: -50 }} // Initial state
+              animate={{ opacity: 1, y: 0 }} // Animation state
+              transition={{ duration: 0.5 }} // Animation duration
+              whileHover={{ scale: 1.1 }} // Hover effect
+              className="flex flex-col flex-1 gap-4 xl:gap-8 items-center mark-icon"
+            >
+              <img src={mobile2Icon} alt="Solana Icon" className="w-full image-round" />
+            </motion.div>            
+            
             <motion.div
               variants={container}
               initial={{ opacity: 0, y: -50 }} // Initial state

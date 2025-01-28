@@ -43,7 +43,7 @@ const Footer = () => {
             <div className="space-y-3 md:space-y-4">
               <p className="text-sm">Managed by</p>
               <a
-                href="#Hero"
+                href="/#vision"
                 className="font-[Orbitron] text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#00f2ff] to-[#2d1b55] cursor-pointer flex items-center gap-2"
               >
                 <img src={logoIconImg} alt="logo icon image" className="w-8" />
