@@ -30,8 +30,8 @@ const Navbar = () => {
     <nav
       className={`fixed top-0 w-full transition-all duration-300 ease-in-out z-50 ${
         hasScrolled
-          ? "bg-[#240124] shadow-lg py-2 backdrop-blur-sm"
-          : "bg-[#240124]"
+          ? ".bg-gray-950 shadow-lg py-2 backdrop-blur-sm"
+          : "bg-gray-950"
       }`} style={{borderBottom: "black solid 1px"}}
     >
       <div className="mx-4 md:px-12 xl:px-36 py-4 flex items-center justify-between md:justify-between md:gap-10">

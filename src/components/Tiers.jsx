@@ -55,7 +55,7 @@ export default function Tiers() {
     <section id="tires" className="bg-[#2d1b55]/10 py-48">
       <div className="w-full px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 2xl:px-52">
         <div className="flex flex-col gap-8">
-          <div className="px-4 lg:px-20 md:pt-16 lg:pt-24 pb-8 border bg-neutral-950 border-gray-900 rounded-lg flex flex-col gap-4"  style={{backgroundColor: "rgb(57, 0, 57)"}}>
+          <div className="px-4 lg:px-20 md:pt-16 lg:pt-24 pb-8 border bg-neutral-950 border-gray-900 rounded-lg flex flex-col gap-4" >
             <p className="grid grid-cols-2 items-center gap-4 lg:text-xl xl:text-2xl 2xl:text-3xl">
               <div />
               <div className="flex justify-between">
@@ -72,7 +72,7 @@ export default function Tiers() {
             </p>
             <p
               className="p-3 bg-neutral-950 rounded-lg text-pink-500 cursor-pointer flex items-center w-60 justify-between"
-              style={{backgroundColor: "rgb(37, 7, 37)"}}
+              
             >
               <img src={ethereumIcon} alt="Solana Icon" className="w-10" />
               <span class="ml-4 text-2xl">Ethereum</span>
@@ -103,7 +103,7 @@ export default function Tiers() {
 
             <p
               className="p-3 mt-24 bg-neutral-950 rounded-lg text-pink-500 cursor-pointer flex items-center w-48 justify-between"
-              style={{backgroundColor: "rgb(37, 7, 37)"}}
+              
             >
               <img src={solanaIcon} alt="Solana Icon" className="w-10" />
               <span class="ml-4 text-3xl">Solana</span>
@@ -184,7 +184,7 @@ export default function Tiers() {
             <motion.div
               variants={item}
               className="bg-neutral-950 border border-gray-900 p-4 rounded-lg flex flex-col items-start gap-4"
-              style={{backgroundColor: "#330133"}}
+              
             >
               <div className="flex items-center gap-2">
                 <IoStar className="text-purple-100 text-2xl" />
@@ -195,7 +195,7 @@ export default function Tiers() {
             <motion.div
               variants={item}
               className="bg-neutral-950 border border-gray-900 p-4 rounded-lg flex flex-col items-start gap-4"
-              style={{backgroundColor: "#330133"}}
+              
             >
               <div className="flex items-center gap-2">
                 <IoStar className="text-pink-400 text-2xl" />
@@ -206,7 +206,7 @@ export default function Tiers() {
             <motion.div
               variants={item}
               className="bg-neutral-950 border border-gray-900 p-4 rounded-lg flex flex-col items-start gap-4"
-              style={{backgroundColor: "#330133"}}
+              
             >
               <div className="flex items-center gap-2">
                 <IoStar className="text-green-200 text-2xl" />

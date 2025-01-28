@@ -11,7 +11,7 @@ export default function Card({ data }) {
     <motion.div
       variants={item}
       className="bg-gray-950 text-white rounded-md p-8 flex flex-col items-start gap-4"
-      style={{backgroundColor: "rgb(57 0 57)"}}
+      
     >
       <h3 className={`border-l-2 border-${data.color} pl-2 text-lg font-bold`}>
         {data.title}

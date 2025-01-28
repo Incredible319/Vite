@@ -17,7 +17,7 @@ import Tires from "../components/Tiers";
 
 const Home = () => {
   return (
-    <div className=" min-h-screen bg-black text-white font-[Rajdhani]" style={{backgroundColor: "rgb(97 0 97)"}}>
+    <div className=" min-h-screen bg-black text-white font-[Rajdhani]">
       <Navbar />
       <Hero />
 

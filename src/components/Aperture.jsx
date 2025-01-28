@@ -78,7 +78,7 @@ export default function Aperture() {
               <img src={ethereumIcon} alt="Ethereum Icon" className="w-28 py-8" />
             </motion.div>
             <div className="bg-gray-950 text-white rounded-md mark-content"
-              style={{backgroundColor: "rgb(57 0 57)"}}>
+              >
               <p className="text-start">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
               <h3 className="border-l-2 pl-2 text-lg font-bold my-6">
                 Ethereum
@@ -113,7 +113,7 @@ export default function Aperture() {
               <img src={solanaIcon} alt="Solana Icon" className="w-28 py-8" />
             </motion.div>
             <div className="bg-gray-950 text-white rounded-md mark-content"
-              style={{backgroundColor: "rgb(57 0 57)"}}>
+              >
               <p className="text-start">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
               <h3 className="border-l-2 pl-2 text-lg font-bold my-6">
                 Solana
